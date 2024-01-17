@@ -56,7 +56,7 @@ export default function Client() {
           ))}
         </ul>
         <div className="my-10 flex justify-center md:justify-start items-center">
-          <button className="bg-blue text-lg font-semibold py-3 px-3 text-white rounded hover:bg-white border border-blue hover:text-blue transition-colors duration-100 ease-in-out">
+          <button className="bg-blue text-lg font-semibold py-3 px-3 text-white rounded hover:bg-white border border-blue hover:text-blue transition-colors duration-300 ease-in-out">
             Start a Project
           </button>
         </div>

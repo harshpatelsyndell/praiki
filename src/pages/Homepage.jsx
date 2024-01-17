@@ -3,6 +3,7 @@
 import Client from "../components/Client";
 import HeroPage from "../components/HeroPage";
 import Navbar from "../components/Navbar";
+import Service from "../components/Service";
 
 export default function Homepage() {
   return (
@@ -10,6 +11,7 @@ export default function Homepage() {
       <Navbar />
       <HeroPage />
       <Client />
+      <Service />
     </div>
   );
 }
