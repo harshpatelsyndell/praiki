@@ -28,7 +28,7 @@ export default function HeroPage() {
           other African countries.
         </h5>
         <div className="text-lg font-semibold space-x-10 flex justify-center md:justify-start">
-          <button className="bg-blue text:medium w-36 py-3 px-3 text-white rounded hover:bg-white border border-blue hover:text-blue transition-colors duration-100 ease-in-out">
+          <button className="bg-blue text-medium w-36 py-3 px-3 text-white rounded hover:bg-white border border-blue hover:text-blue transition-colors duration-100 ease-in-out">
             Find Talent
           </button>
           <button className="text:medium w-36 py-3 px-3 rounded bg-white border border-greytext">

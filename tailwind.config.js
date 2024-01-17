@@ -9,6 +9,7 @@ export default {
         blue: "#286cac",
         bgBlue: "#EEF3FB",
         textBlue: "#2B6CB0",
+        blackText: "#1A202C",
       },
     },
     fontFamily: {
