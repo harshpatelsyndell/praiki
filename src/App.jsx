@@ -1,10 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/praiki" element={<Homepage />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

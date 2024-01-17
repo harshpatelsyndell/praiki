@@ -5,11 +5,13 @@ export default {
     extend: {
       colors: {
         greytext: "#4A5568",
+        greytext1: "#727272",
         blue: "#286cac",
+        bgBlue: "#EEF3FB",
       },
     },
     fontFamily: {
-      gotham: ["Inter", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
     },
   },
   plugins: [],
