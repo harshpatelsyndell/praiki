@@ -1,4 +1,4 @@
-// import React from 'react'
+import praikilogo from "../assets/praikilogo.png";
 
 const footer = [
   {
@@ -108,7 +108,7 @@ const xIcon = (
 export default function Footer() {
   return (
     <div className="font-Mulish bg-bgBlue mt-20 p-10">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full xl:w-3/5 m-auto gap-5 md:gap-1">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full xl:w-4/5 m-auto gap-5 md:gap-1">
         {footer.map((items, itemsIndex) => (
           <div key={itemsIndex}>
             <h3 className="text-lg font-bold text-blackText1 mb-5">
@@ -162,7 +162,33 @@ export default function Footer() {
         </div>
       </div>
       {/* -----last footer sec----- */}
-      <div className="w-full xl:w-3/5 m-auto border-t-2 border-borderColor my-20"></div>
+      <div className="flex flex-col lg:flex-row justify-between items-center w-full xl:w-4/5 m-auto border-t-2 border-borderColor my-20 pt-20 text:xs ">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+          <div>
+            <img src={praikilogo} alt="" />
+          </div>
+          <div className="hidden sm:block border-s border-borderColor h-10"></div>
+          <p className="text-center">
+            Connecting professionals to businesses across Africa
+          </p>
+        </div>
+        <div className="py-5 lg:py-0">
+          <ul className="flex justify-center lg:justify-end items-center gap-5 text-sm">
+            <li className="shrink-0">
+              <a href="">Refund Policy</a>
+            </li>
+            <li className="shrink-0">
+              <a href="">Terms of Service</a>
+            </li>
+            <li className="shrink-0">
+              <a href="">Privacy Policy</a>
+            </li>
+          </ul>
+          <p className=" text-center lg:text-right">
+            © 2024 praiki - All Rights Reserved
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
