@@ -29,8 +29,8 @@ const boxesData = [
 
 export default function Service() {
   return (
-    <div className="font-Inter">
-      <div className="lg:w-[66%] mx-10 lg:mx-auto py-20">
+    <div className="font-Inter border-b-2 border-borderColor">
+      <div className="lg:w-[66%] mx-10 lg:mx-auto pt-20">
         <h1 className="text-3xl sm:text-5xl font-extrabold text-blackText">
           Services curated for <span className="font-medium italic">You</span>
         </h1>

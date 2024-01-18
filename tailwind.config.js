@@ -10,6 +10,7 @@ export default {
         bgBlue: "#EEF3FB",
         textBlue: "#2B6CB0",
         blackText: "#1A202C",
+        borderColor: "#A6B7F4",
       },
     },
     fontFamily: {

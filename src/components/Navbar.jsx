@@ -44,7 +44,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-white sticky top-0 border z-50">
+    <div className="bg-white sticky w-screen top-0 border z-50">
       {/* -------------------nav-header------------- */}
       <div className="flex justify-between md:justify-start items-center space-x-5 py-3 px-7 relative">
         {/* -----------left (logo)---------- */}
