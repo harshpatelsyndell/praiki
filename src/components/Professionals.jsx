@@ -56,7 +56,7 @@ export default function Professionals() {
       </div>
       {/* -------------end----------- */}
       {/* -------------ready to start hiring section----------- */}
-      <div className="bg-bgBlue mt-5 py-14 text-center">
+      <div className="bg-bgGray mt-5 py-14 text-center">
         <h1 className="text-3xl lg:text-6xl font-black text-blackText">
           Ready to Start Hiring?
         </h1>

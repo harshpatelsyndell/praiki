@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import Client from "../components/Client";
+import Footer from "../components/Footer";
 import HeroPage from "../components/HeroPage";
 import Navbar from "../components/Navbar";
 import Professionals from "../components/Professionals";
@@ -14,6 +15,7 @@ export default function Homepage() {
       <Client />
       <Service />
       <Professionals />
+      <Footer />
     </div>
   );
 }
